@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+  }
+
+  .navbar {
+    padding-left: 10%;  
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
+  
+  .main {
+    padding: 16px;
+    margin-top: 30px;
+    height: 1500px; /* Used in this example to enable scrolling */
+    background-color: grey;
+
+  }
+
+  #image { 
+    position: relative; 
+    width: 100%;
+   
+ }
+
+ h3{ 
+    position: absolute; 
+    top: 25%; 
+    left: 0; 
+    width: 100%; 
+    color: white;
+ 
+ }
+.dived {
+    margin : auto;
+    text-align: center;
+    background-color : #454546;
+    padding: 5%;
+
+}
+ .pimg{
+     font-family: cursive;
+    position: absolute; 
+    top: 280px; 
+    left: 0; 
+    width: 100%;  
+ }
+
+ 
+ .button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #5ef57f;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 20%;
+    height: 5%;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  #customers {
+      text-align: center;
+    font-family: cursive;
+    border-collapse: collapse;
+    margin: auto;
+    width: 80%;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid rgb(92, 92, 92);
+    padding: 8px;
+  }
+  
+  #customers tr{background-color: #dbd7d7;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: black;
+    color: white;
+  }
+  .header {
+    padding: 60px;
+    text-align: center;
+    background: #5ef57f;
+    color: white;
+    font-size: 30px;
+  }
+  .header2 {
+    padding: 60px;
+    text-align: center;
+    background: #343534;
+    color: white;
+    font-size: 30px;
+  }
+  .header3 {
+    padding: 60px;
+    text-align: center;
+    background: #575857;
+    color: white;
+    font-size: 30px;
+  }
+  kbd {
+    padding:0.1em 0.6em;
+    border:1px solid #ccc;
+    font-size:11px;
+    font-family:Arial,Helvetica,sans-serif;
+    background-color:#f7f7f7;
+    color:#333;
+    -moz-box-shadow:0 1px 0px rgba(0, 0, 0, 0.2),0 0 0 2px #ffffff inset;
+    -webkit-box-shadow:0 1px 0px rgba(0, 0, 0, 0.2),0 0 0 2px #ffffff inset;
+    box-shadow:0 1px 0px rgba(0, 0, 0, 0.2),0 0 0 2px #ffffff inset;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    border-radius:3px;
+    display:inline-block;
+    margin:0 0.1em;
+    text-shadow:0 1px 0 #fff;
+    line-height:1.4;
+    white-space:nowrap;
+    }
